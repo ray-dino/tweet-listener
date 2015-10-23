@@ -1,5 +1,10 @@
+blist==1.3.6
+cassandra-driver==2.7.2
+futures==3.0.3
+lz4==0.7.0
 oauthlib==1.0.3
 python-twitter==2.2
 requests==2.8.0
 requests-oauthlib==0.5.0
+scales==1.0.9
 six==1.10.0
