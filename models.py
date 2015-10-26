@@ -7,6 +7,7 @@ class Tweet(Model):
     text = columns.Text()
     
     user_id = columns.BigInt()
+    user_screen_name = columns.Text()
     user_name = columns.Text()
     
     geo_type = columns.Text()
@@ -14,5 +15,3 @@ class Tweet(Model):
 
     created_at = columns.Text()
     raw_tweet = columns.Text()
-
-    saved_at = columns.DateTime()
